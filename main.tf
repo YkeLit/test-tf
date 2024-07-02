@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "headscale" {
-  api_key  = var.hd_api_key
+  # api_key  = var.hd_api_key
   endpoint = "https://neo-shuttler.jet.work"
 }
 
