@@ -13,5 +13,3 @@ provider "headscale" {
 }
 
 data "headscale_api_keys" "active_keys" {}
-
-resource "headscale_api_key" "default" {}
